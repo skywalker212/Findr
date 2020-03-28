@@ -2,8 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import 'normalize.css';
+import "nes.css/css/nes.min.css";
 import App from './app/App';
-import store from './app/store';
+import store from './app/store/store';
 import { Provider } from 'react-redux';
 import * as serviceWorker from './serviceWorker';
 

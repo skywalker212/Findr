@@ -1,0 +1,14 @@
+.main-content {
+  margin-top: 5vh;
+}
+
+.main-nav {
+  height: 5vh;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid darkslategrey; position: fixed;
+}
