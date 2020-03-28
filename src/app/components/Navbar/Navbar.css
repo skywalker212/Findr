@@ -1,0 +1,21 @@
+@import url('./../../../palette.css');
+
+.list {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.list-item {
+  margin: 0 1vw;
+}
+
+.logout-button {
+  background-color: transparent;
+  border: none;
+  color: var(--error);
+}

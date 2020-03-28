@@ -1,0 +1,9 @@
+.orientation-details {
+  margin: 3vh 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.radio-input {
+  margin: 0.5rem;
+}

@@ -1,0 +1,5 @@
+.location-modal-spinner-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
