@@ -24,7 +24,7 @@ export const slice = createSlice({
   }
 });
 
-export const { setLocation } = slice.actions;
+export const { setLocation, removeLocation } = slice.actions;
 
 /**
  * sample async reducer code

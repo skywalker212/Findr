@@ -3,20 +3,26 @@ import './App.css';
 import Map from './components/map/Map';
 import Nav from './components/Navbar/Navbar';
 import LocationModal from './components/dialogs/Login/Login';
-import mapConfig from './../config/map.config';
+import { connect } from 'react-redux';
+import NotificationModal from './components/notification/Notification';
 
-function App() {
+function App(props) {
   return (
     <Fragment>
       <div id="findr-root">
         <div id="location-dialog">
           <LocationModal applicationNode="location-dialog"/>
         </div>
+        { props.notifications ? <div id="notification-dialog"><NotificationModal applicationNode="notification-dialog" data={props.notifications}/></div> : false }
         <Nav className="main-nav"/>
-        <Map className="main-content" map={mapConfig}/>
+        <Map className="main-content"/>
       </div>
     </Fragment>
   );
 }
 
-export default App;
+const mapStateToProps = (state) => {
+  return { notifications: state.notifications.value }
+}
+
+export default connect(mapStateToProps)(App);
