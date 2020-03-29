@@ -1,6 +1,6 @@
 import { PropTypes } from 'prop-types';
 import Draw from 'leaflet-draw'; 
-import isEqual from 'lodash-es/isEqual';
+import {isEqual} from 'lodash';
 
 import { MapControl, withLeaflet } from 'react-leaflet';
 import leaflet, { Map, Control } from 'leaflet';
