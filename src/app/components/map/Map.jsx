@@ -27,6 +27,7 @@ class Map extends Component {
     console.log(create);
     try {
       let geoJson = create.layer.toGeoJSON();
+      console.log(geoJson);
       let bounds = create.layer.getBounds();
       let result = this.circleBounds.contains(bounds);
       if (!result) {
