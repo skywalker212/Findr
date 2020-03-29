@@ -1,0 +1,10 @@
+.icon-style {
+  margin: -50% 0 0 -50%;
+  width: 20px;
+  height: 40px;
+}
+
+.mario {
+  width: inherit;
+  height: inherit;
+}

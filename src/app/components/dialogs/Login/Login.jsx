@@ -7,13 +7,13 @@ import { logInAsync } from './../../../store/reducers/user/userSlice';
 import './Login.css';
 import Location from './Location/Location';
 import UserForm from './UserForm/UserForm';
+import Spinner from './../../spinner/Spinner';
 
 class Modal extends RootModal {
   constructor(props) {
     super(props);
     this.state = {
-      loading: false,
-      
+      loading: false
     }
   }
 
@@ -55,9 +55,14 @@ class Modal extends RootModal {
         >
           <div id="login-dialog-root" className="nes-dialog is-rounded modal custom-pointer">
             {
+              this.state.loading ?
+              (<div className="location-modal-spinner-parent">
+                <div>Loading...</div>
+                <Spinner className="la-dark"/>
+              </div>):
               this.props.isLoggedIn === false ?
               <UserForm login={this.props.logIn}/> :
-              <Location loading={this.state.loading} locationSupport={this.props.locationSupport} setLocation={this.setLocation} denyLocation={this.denyLocation}/>
+              <Location locationSupport={this.props.locationSupport} setLocation={this.setLocation} denyLocation={this.denyLocation}/>
             }
           </div>
         </AriaModal>
