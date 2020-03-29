@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/findr/static/css/main.40fdbe37.chunk.css",
+    "main.js": "/findr/static/js/main.49b36811.chunk.js",
+    "main.js.map": "/findr/static/js/main.49b36811.chunk.js.map",
+    "runtime-main.js": "/findr/static/js/runtime-main.872985b9.js",
+    "runtime-main.js.map": "/findr/static/js/runtime-main.872985b9.js.map",
+    "static/css/2.62e8d5ba.chunk.css": "/findr/static/css/2.62e8d5ba.chunk.css",
+    "static/js/2.d58818fd.chunk.js": "/findr/static/js/2.d58818fd.chunk.js",
+    "static/js/2.d58818fd.chunk.js.map": "/findr/static/js/2.d58818fd.chunk.js.map",
+    "index.html": "/findr/index.html",
+    "precache-manifest.f7436590787e3260b0cc623380810fea.js": "/findr/precache-manifest.f7436590787e3260b0cc623380810fea.js",
+    "service-worker.js": "/findr/service-worker.js",
+    "static/css/2.62e8d5ba.chunk.css.map": "/findr/static/css/2.62e8d5ba.chunk.css.map",
+    "static/css/main.40fdbe37.chunk.css.map": "/findr/static/css/main.40fdbe37.chunk.css.map",
+    "static/js/2.d58818fd.chunk.js.LICENSE.txt": "/findr/static/js/2.d58818fd.chunk.js.LICENSE.txt",
+    "static/media/mario.png": "/findr/static/media/mario.fd0f1148.png",
+    "static/media/index.css": "/findr/static/media/spritesheet.fd5728f2.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.872985b9.js",
+    "static/css/2.62e8d5ba.chunk.css",
+    "static/js/2.d58818fd.chunk.js",
+    "static/css/main.40fdbe37.chunk.css",
+    "static/js/main.49b36811.chunk.js"
+  ]
+}
